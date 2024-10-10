@@ -1,112 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/main"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity"
-android:background="@color/red">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/red"><!--aqui pongo red porque en carpeta values
+    colors le pongo el color con hexademal y al nombre le asigno rojo y aqui entiende que tiene que cogerlo -->
 
 
-<androidx.constraintlayout.widget.Guideline
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:id="@+id/guiaiz"
-    app:layout_constraintGuide_percent="0.15">
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/guiaiz"
+        app:layout_constraintGuide_percent="0.15">
 
 
 
-</androidx.constraintlayout.widget.Guideline>
-<androidx.constraintlayout.widget.Guideline
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    app:layout_constraintGuide_percent="0.85"
-    android:id="@+id/guiade"
+    </androidx.constraintlayout.widget.Guideline>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85"
+        android:id="@+id/guiade"
 
-    ></androidx.constraintlayout.widget.Guideline>
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/ic_action_ray"
-    android:id="@+id/imagen"
-    app:layout_constraintTop_toTopOf="@id/main"
-    app:layout_constraintBottom_toBottomOf="@id/boton1"
-    app:layout_constraintEnd_toEndOf="@id/main"
-    app:layout_constraintStart_toStartOf="@id/main">
-
-
-</ImageView>
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-
-    app:layout_constraintStart_toStartOf="@id/main"
-    app:layout_constraintEnd_toStartOf="@id/boton2"
-    app:layout_constraintBottom_toBottomOf="@id/main"
-    app:layout_constraintTop_toTopOf="@id/main"
-    android:text="boton 1"
-    android:id="@+id/boton1"
-    app:layout_constraintHorizontal_chainStyle="packed"
-    android:layout_margin="40dp"
-    >
-
-</Button>
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/boton2"
-    app:layout_constraintStart_toEndOf="@id/boton1"
-    app:layout_constraintEnd_toEndOf="@id/main"
-    app:layout_constraintBottom_toBottomOf="@id/main"
-    android:text="boton2"
-    app:layout_constraintTop_toTopOf="@id/main"
-    >
+        ></androidx.constraintlayout.widget.Guideline>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_ray"
+        android:id="@+id/imagen"
+        app:layout_constraintTop_toTopOf="@id/main"
+        app:layout_constraintBottom_toBottomOf="@id/boton1"
+        app:layout_constraintEnd_toEndOf="@id/main"
+        app:layout_constraintStart_toStartOf="@id/main">
 
 
-</Button>
+    </ImageView>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toEndOf="@id/guiaiz"
+        app:layout_constraintEnd_toStartOf="@id/boton2"
+        app:layout_constraintBottom_toBottomOf="@id/main"
+        app:layout_constraintTop_toTopOf="@id/main"
+
+        android:text="boton 1"
+        android:id="@+id/boton1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton2"
+        app:layout_constraintStart_toEndOf="@id/boton1"
+        app:layout_constraintEnd_toStartOf="@id/guiade"
+        app:layout_constraintBottom_toBottomOf="@id/main"
+        android:text="boton2"
+        app:layout_constraintTop_toTopOf="@id/main"
+        >
 
 
-<EditText
-    android:id="@+id/nombre"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:hint="NAME"
-    android:text="NOMBRE"
-    app:layout_constraintTop_toBottomOf="@id/imagen"
-    app:layout_constraintStart_toStartOf="@id/main"
-    app:layout_constraintEnd_toEndOf="@id/main"
-    >
+    </Button>
 
 
-</EditText>
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:text="NOMBRE"
 
-<EditText
-    android:id="@+id/contraseña"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="CONTRASEÑA"
-    app:layout_constraintTop_toBottomOf="@id/nombre"
-    app:layout_constraintStart_toStartOf="@id/main"
-    app:layout_constraintEnd_toEndOf="@id/main"
-    >
+        app:layout_constraintTop_toBottomOf="@id/imagen"
+        app:layout_constraintStart_toStartOf="@id/guiaiz"
+        app:layout_constraintEnd_toStartOf="@id/guiade"
 
-</EditText>
+        >
 
-<Button
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:text="REGISTRAR"
-    android:id="@+id/registro"
 
-    app:layout_constraintBottom_toBottomOf="@id/main"
-    app:layout_constraintEnd_toEndOf="@id/main"
-    app:layout_constraintStart_toStartOf="@id/main"
+    </EditText>
 
-    ></Button>
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CONTRASEÑA"
+        app:layout_constraintTop_toBottomOf="@id/nombre"
+        app:layout_constraintStart_toStartOf="@id/guiaiz"
+        app:layout_constraintEnd_toStartOf="@id/guiade"
+
+        >
+
+    </EditText>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        android:id="@+id/registro"
+
+        app:layout_constraintBottom_toBottomOf="@id/main"
+        app:layout_constraintEnd_toEndOf="@id/main"
+        app:layout_constraintStart_toStartOf="@id/main"
+
+        ></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
