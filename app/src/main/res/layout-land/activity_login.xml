@@ -29,10 +29,14 @@
         app:layout_constraintGuide_percent="0.90"
         android:id="@+id/guiade"
 
-        >
+        ></androidx.constraintlayout.widget.Guideline>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:background="@color/black">
 
-    </androidx.constraintlayout.widget.Guideline>
-
+    </View>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -60,12 +64,11 @@
     </ImageView>
 
     <ImageView
-        android:id="@+id/chica"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/girl"
-        android:scaleType="fitStart"
-        >
+        android:scaleType="fitStart">
+
     </ImageView>
     <Button
         android:layout_width="0dp"
@@ -76,7 +79,7 @@
         app:layout_constraintBottom_toBottomOf="@id/main"
         app:layout_constraintTop_toTopOf="@id/main"
 
-        android:text="@string/boton_1"
+        android:text="boton 1"
         android:id="@+id/boton1"
         app:layout_constraintHorizontal_chainStyle="packed"
 
@@ -90,7 +93,7 @@
         app:layout_constraintStart_toEndOf="@id/guiaiz"
         app:layout_constraintEnd_toStartOf="@id/guiade"
 
-        android:text="@string/boton2"
+        android:text="boton2"
         app:layout_constraintTop_toBottomOf="@id/boton1"
         >
 
@@ -113,7 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="@string/nombre"
+        android:text="NOMBRE"
         android:alpha="0.5"
         android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@id/imagen"
@@ -132,13 +135,13 @@
         app:layout_constraintStart_toStartOf="@id/guiaiz"
         app:layout_constraintTop_toBottomOf="@id/imagen"
         app:layout_constraintBottom_toTopOf="@id/boton1"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         app:startIconDrawable="@drawable/contra">
     <EditText
         android:id="@+id/contra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contrase_a"
+        android:text="CONTRASEÑA"
         app:layout_constraintTop_toBottomOf="@id/nombre"
         app:layout_constraintStart_toStartOf="@id/guiaiz"
         app:layout_constraintEnd_toStartOf="@id/guiade"
@@ -153,16 +156,14 @@
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/registrar"
+        android:text="REGISTRAR"
         android:id="@+id/registro"
 
         app:layout_constraintBottom_toBottomOf="@id/main"
         app:layout_constraintEnd_toEndOf="@id/guiade"
         app:layout_constraintStart_toStartOf="@id/guiaiz"
 
-        >
-
-    </Button>
+        ></Button>
 
 
 
