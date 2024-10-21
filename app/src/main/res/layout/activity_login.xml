@@ -73,8 +73,8 @@
         app:layout_constraintEnd_toStartOf="@id/guiade"
         app:layout_constraintBottom_toBottomOf="@id/main"
         app:layout_constraintTop_toTopOf="@id/main"
-        android:onClick="openSignup"
-        android:text="@string/boton_1"
+        android:onClick="openMain"
+        android:text="LOGIN"
         android:id="@+id/boton1"
         app:layout_constraintHorizontal_chainStyle="packed"
 
@@ -85,8 +85,8 @@
         android:id="@+id/boton2"
         app:layout_constraintStart_toEndOf="@id/guiaiz"
         app:layout_constraintEnd_toStartOf="@id/guiade"
-
-        android:text="@string/boton2"
+        android:onClick="openSignup"
+        android:text="SIGN UP"
         app:layout_constraintTop_toBottomOf="@id/boton1"
         style="@style/buttonoutlined">
 
@@ -109,7 +109,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="@string/nombre"
+        android:hint="@string/nombre"
         android:alpha="0.5"
         android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@id/imagen"
@@ -134,7 +134,7 @@
         android:id="@+id/contra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contrase_a"
+        android:hint="@string/contrase_a"
         app:layout_constraintTop_toBottomOf="@id/nombre"
         app:layout_constraintStart_toStartOf="@id/guiaiz"
         app:layout_constraintEnd_toStartOf="@id/guiade"

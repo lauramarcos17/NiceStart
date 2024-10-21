@@ -1,6 +1,8 @@
 package com.lmarcos.nicestart;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,17 @@ public class Signup extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void openLogin()
+    {
+        Intent intent=new Intent(Signup.this, Login.class);
+        // PRIMERO SE PONE NOMBRE DE LA CLASE Y LUEGO LA QUE QUEREMOS ABRIR
+
+        startActivity(intent);
+    }
+
+    public void openMain(View view) {
+        Intent intento = new Intent(Signup.this, Main.class);
+        startActivity(intento);
     }
 }
