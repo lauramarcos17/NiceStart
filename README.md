@@ -1,5 +1,4 @@
-#NICESTART 
-#CAMBIOS
+
 Este repositorio muestra los cambios producidos-
 Captura de la primera pantalla 
 ![login activity](img/img1.png)
