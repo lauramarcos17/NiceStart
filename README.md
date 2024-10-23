@@ -1,10 +1,16 @@
+## APP NICESTART
 
-Este repositorio muestra los cambios producidos-
-Captura de la primera pantalla 
+Este repositorio muestra avances en la APP-
+Captura de la primera pantalla :
+
 ![login activity](img/img1.png)
-captura de la segunda pantalla
+Captura de la segunda pantalla :
+Esta pantalla contiene ACTION BAR
+
 ![login activity](img/img2.png)
-captura pantalla principal 
+
+Captura de la pantalla principal :
+Cuando doy al boton SIGN UP O CANCEL me lleva a esta pantalla.
 ![login activity](img/img3.png)
 
 
