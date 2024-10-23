@@ -1,10 +1,11 @@
-
+#NICESTART 
+#CAMBIOS
 Este repositorio muestra los cambios producidos-
 Captura de la primera pantalla 
 ![login activity](img/img1.png)
-captura de la segunda pantalla
+Captura de la segunda pantalla
 ![login activity](img/img2.png)
-captura pantalla principal 
+Captura pantalla principal 
 ![login activity](img/img3.png)
 
 
