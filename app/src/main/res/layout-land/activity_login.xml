@@ -29,14 +29,10 @@
         app:layout_constraintGuide_percent="0.70"
         android:id="@+id/guiade"
 
-        ></androidx.constraintlayout.widget.Guideline>
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:alpha="0"
-        android:background="@color/black">
+        >
 
-    </View>
+    </androidx.constraintlayout.widget.Guideline>
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -64,12 +60,15 @@
     </ImageView>
 
     <ImageView
+        android:id="@+id/chica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/girl"
+
         android:scaleType="fitStart">
 
     </ImageView>
+    <!-- android:src="@drawable/girl"-->
+
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"

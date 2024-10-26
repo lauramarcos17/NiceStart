@@ -23,6 +23,13 @@ Captura de la ***pantalla principal*** :
 Cuando doy al boton SIGN UP O CANCEL me lleva a esta pantalla.
 ![login activity](img/img2.png)
 
+Creo otra pantalla para el perfil de la persona: 
+-Añado nombre,foto y su correo 
+![login activity](img/perfil.png)
+
+El codigo para añadir foto, ponerla en forma circular es este:
+![login activity](img/fotoperfil.jpg)
+
 
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)

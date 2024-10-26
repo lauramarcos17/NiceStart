@@ -63,9 +63,10 @@
         android:id="@+id/chica"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/girl"
+
         android:scaleType="fitStart"
         >
+       <!-- android:src="@drawable/girl"-->
     </ImageView>
     <Button
 
