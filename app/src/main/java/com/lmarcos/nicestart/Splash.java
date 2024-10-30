@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,10 +23,15 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         oppenap();
 
+        TextView texto=findViewById(R.id.titulo);
+
         ImageView thunder=findViewById(R.id.animacion);
         //aqui creo objeto animacion descrita en xml llamada blink
-        Animation myanim= AnimationUtils.loadAnimation(this,R.anim.blink);
+        Animation myanim= AnimationUtils.loadAnimation(this,R.anim.escala);
 
+        //NO HACE FALTA CREAR OTRA ANIMACION SI QUIERO HACER LO MISMO EN LAS DOS
+        Animation myanimtexto=AnimationUtils.loadAnimation(this,R.anim.escala);
+        texto.startAnimation(myanim);
         //con este metodo startanimation lo aplicamos al imagenview del logo
         thunder.startAnimation(myanim);
 

@@ -34,7 +34,12 @@ El codigo para añadir foto, ponerla en forma circular es este:
 Añado nueva pantalla : ***Splash***
 con su animacion: 
 
-![login activity](img/animacion.png)
+![login activity](img/definitiva.png)
+
+Codigo para meter un tipo a la animacion.
+
+
+![login activity](img/codigoanima.png)
 
 
 >This repository is licensed under
