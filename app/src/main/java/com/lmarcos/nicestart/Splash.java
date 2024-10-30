@@ -41,6 +41,7 @@ public class Splash extends AppCompatActivity {
 
     private void oppenap()
     {
+        //esto lo que hace es postergar tareas aqui le digo que se tome 5 segundos
         Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override

@@ -31,5 +31,11 @@ El codigo para añadir foto, ponerla en forma circular es este:
 ![login activity](img/fotoperfil.jpg)
 
 
+Añado nueva pantalla : ***Splash***
+con su animacion: 
+
+![login activity](img/animacion.png)
+
+
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
