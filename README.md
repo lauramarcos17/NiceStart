@@ -38,8 +38,23 @@ con su animacion:
 
 Codigo para meter un tipo a la animacion.
 
+```       
+        TextView texto=findViewById(R.id.titulo);
 
-![login activity](img/codigoanima.png)
+        ImageView thunder=findViewById(R.id.animacion);
+        
+        //aqui creo objeto animacion descrita en xml llamada blink
+        Animation myanim= AnimationUtils.loadAnimation(this,R.anim.escala);
+
+        //NO HACE FALTA CREAR OTRA ANIMACION SI QUIERO HACER LO MISMO EN LAS DOS
+        
+        Animation myanimtexto=AnimationUtils.loadAnimation(this,R.anim.escala);
+        texto.startAnimation(myanim);
+        
+        //con este metodo startanimation lo aplicamos al imagenview del logo
+        thunder.startAnimation(myanim);
+ ```
+
 
 
 >This repository is licensed under
