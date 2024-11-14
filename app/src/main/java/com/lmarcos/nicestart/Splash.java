@@ -26,6 +26,7 @@ public class Splash extends AppCompatActivity {
         TextView texto=findViewById(R.id.titulo);
 
         ImageView thunder=findViewById(R.id.animacion);
+        
 
         //aqui creo objeto animacion descrita en xml llamada blink
         Animation myanim= AnimationUtils.loadAnimation(this,R.anim.escala);
