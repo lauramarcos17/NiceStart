@@ -9,7 +9,7 @@
 
     <style name="Theme.NiceStart" parent="Base.Theme.NiceStart">
         <!--esto de abajo quita el logo android al iniciar -->
-    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowIsTranslucent">true</item><!--para que no salga el logo de androdi -->
     </style>
 
 </resources>

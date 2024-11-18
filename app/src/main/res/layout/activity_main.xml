@@ -8,33 +8,36 @@
     tools:context=".Main"
     android:background="@color/red"
     >
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/myswipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/vistaweb"
+            >
+        </WebView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 
 
     <TextView
-        android:id="@+id/texto"
+        android:id="@+id/añadido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ESTAS EN LA PAGINA PRINCIPAL"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="287dp"
-        app:layout_constraintStart_toStartOf="@id/main"
-        app:layout_constraintEnd_toEndOf="@id/main"
         app:layout_constraintTop_toTopOf="@id/main"
-        app:layout_constraintBottom_toBottomOf="@id/main"
-        />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SALIR"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="388dp"
-      app:layout_constraintEnd_toEndOf="@id/main"
         app:layout_constraintStart_toStartOf="@id/main"
-        app:layout_constraintTop_toBottomOf="@id/texto">
+        app:layout_constraintBottom_toBottomOf="@id/main">
 
-    </Button>
+    </TextView>
+
+
     <ImageView
         android:id="@+id/foto"
         android:layout_width="match_parent"
@@ -44,16 +47,5 @@
         >
 
     </ImageView>
-    <TextView
-        android:id="@+id/añadido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola"
-        app:layout_constraintTop_toBottomOf="@id/button"
-        app:layout_constraintStart_toStartOf="@id/main"
-        app:layout_constraintEnd_toEndOf="@id/main"
-        android:layout_marginTop="100dp">
-
-    </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
