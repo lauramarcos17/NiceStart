@@ -56,7 +56,8 @@ Codigo para meter un ***tipo a la animacion.***
         thunder.startAnimation(myanim);
  ```
 
-
+Añado el ***Swipe Refresh***
+<img src="videos/refresco.webm" width="200"></img>
 
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
