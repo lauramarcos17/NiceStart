@@ -57,7 +57,19 @@ Codigo para meter un ***tipo a la animacion.***
  ```
 
 Añado el ***Swipe Refresh***
-<img src="videos/refresco.webm" width="200"></img>
+<img src="videos/refresco.gif" width="200"></img>
+
+
+Añado el  ***menu context*** 
+ 
+OPCION DE PERFIL:
+<img src="videos/perfil.gif" width="200"></img>
+
+
+
+DIÁLOGO MODAL:
+<img src="videos/dialogomodal.gif" width="200"></img>
+
 
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
