@@ -57,17 +57,16 @@ Codigo para meter un ***tipo a la animacion.***
  ```
 
 Añado el ***Swipe Refresh***
-<img src="videos/refresco.gif" width="200"></img>
+<img src="videos/refreco.gif" width="200"></img>
 
 
-Añado el  ***menu context*** 
+Añado el  ***menu context*** la OPCION DE PERFIL y el DIALOGO MODAL:
  
-OPCION DE PERFIL:
+
 <img src="videos/perfil.gif" width="200"></img>
 
 
 
-DIÁLOGO MODAL:
 <img src="videos/dialogomodal.gif" width="200"></img>
 
 
