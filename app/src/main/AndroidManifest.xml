@@ -15,14 +15,16 @@
         android:theme="@style/Theme.NiceStart"
         tools:targetApi="31">
         <activity
+            android:name=".Prueba"
+            android:exported="true" />
+        <activity
             android:name=".Splash"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Profile"
@@ -38,9 +40,7 @@
             android:theme="@style/Theme.NiceStart.ActionBar" />
         <activity
             android:name=".Login"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

@@ -27,6 +27,8 @@ import com.bumptech.glide.Glide;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
+import es.dmoral.toasty.Toasty;
+
 public class Main extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeLayout;
@@ -80,8 +82,7 @@ public class Main extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // do something like...
-                Toast.makeText(mainActivity, "He pulsado el de la derecha ", Toast.LENGTH_SHORT).show();
-
+                Toasty.info(mainActivity, "He pulsado el de la derecha", Toast.LENGTH_SHORT, true).show();
                 dialog.dismiss();
 
             }
@@ -185,11 +186,11 @@ public class Main extends AppCompatActivity {
         int id=item.getItemId();//numero segun orden de creacion en xml
         if(id==R.id.item1)
         {
-            Toast.makeText(this, "Infecting", Toast.LENGTH_SHORT).show();
+            Toasty.info(this, "Infecting", Toast.LENGTH_SHORT, true).show();
         }
         if(id==R.id.item2)
         {
-            Toast.makeText(this, "Fixing", Toast.LENGTH_SHORT).show();
+            Toasty.info(this, "Fixing", Toast.LENGTH_SHORT, true).show();
             Intent intent=new Intent(this, Profile.class);
             startActivity(intent);
 
