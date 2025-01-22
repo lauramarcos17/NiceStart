@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Page2">
+    tools:context=".fragment.Page2"
+    android:background="@color/fucsia_700">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Estas en pagina 2"
+        android:textColor="@color/white" />
 
 </FrameLayout>
