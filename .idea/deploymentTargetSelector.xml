@@ -16,9 +16,6 @@
       <SelectionState runConfigName="Prueba">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainBab">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="MainBn">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
