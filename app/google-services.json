@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023850577490",
+    "project_id": "nicestartlaura",
+    "storage_bucket": "nicestartlaura.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023850577490:android:f33df48fd7ae3fcdc2a98b",
+        "android_client_info": {
+          "package_name": "com.lmarcos.nicestart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNy2yg0Q2GKM4qjt7d5jspwyCMBm9L25Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
