@@ -70,5 +70,24 @@ Añado el  ***menu context*** la OPCION DE PERFIL y el DIALOGO MODAL:
 <img src="videos/dialogomodal.gif" width="200"></img>
 
 
+
+
+
+### *** Button Action Bar***
+Implemento menú en el ACTIVITY MAINBAB .
+Si hago click al icono de la izquierda se despliega otro menú
+
+
+<img src="videos/videoact.gif" width="200"></img>
+
+
+### *** Button Navigation ***
+
+Cada vez que deslizo hacia la derecha o izquierda, navego entre los distintos fragments, al igual que si pulso en los iconos 
+
+
+<img src="videos/navigation.gif" width="200"></img>
+
+
 >This repository is licensed under
 >[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)
