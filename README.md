@@ -56,14 +56,23 @@ Codigo para meter un ***tipo a la animacion.***
         thunder.startAnimation(myanim);
  ```
 
+
+
+
 Añado el ***Swipe Refresh***
+
+
 <img src="videos/refreco.gif" width="200"></img>
+
+
 
 
 Añado el  ***menu context*** la OPCION DE PERFIL y el DIALOGO MODAL:
  
 
+
 <img src="videos/perfil.gif" width="200"></img>
+
 
 
 
@@ -74,6 +83,7 @@ Añado el  ***menu context*** la OPCION DE PERFIL y el DIALOGO MODAL:
 
 
 ### *** Button Action Bar***
+
 Implemento menú en el ACTIVITY MAINBAB .
 Si hago click al icono de la izquierda se despliega otro menú
 
